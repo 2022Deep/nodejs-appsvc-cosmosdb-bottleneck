@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'ZombieApp'
-  serviceConnection: '<Name of your webARM Service connection>'
+  webAppName: 'hellozombie'
+  serviceConnection: 'NewMyZombieTest'
   azureSubscriptionId: 'a24690cb-95a5-43b9-b0ca-0ca0a8a5b442'
-  loadTestResource: 'SampleInstance'
-  loadTestResourceGroup: 'SampleLoadTest'
-  location: 'southcentalus'
+  loadTestResource: 'NewAzloadtestresource'
+  loadTestResourceGroup: 'NewZombieResourcegrp'
+  location: 'eastus'
 
 
 stages:
